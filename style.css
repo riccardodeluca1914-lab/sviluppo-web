@@ -3,15 +3,36 @@ body {
     font-size: 11px; /* La dimensione del font principale nei tag <p></p> */
     background-color: #569a1b; /* Il colore dello sfondo della pagina web */
     color: #f8bc06c4; /* Il colore del testo */ 
+    animation: color-change 5s infinite;
+
     
 }
 h1 {
-    color: #f3031f; /* Il colore dell'intestazione */
+    color: #000000; /* Il colore dell'intestazione */
     font-size: 24px; /* La dimensione del font dell'intestazione */
     font-family: Inter, serif; /* La famiglia del font usata nell'intestazione */
+    animation: h1bkground 3s infinite; 
 }
+
 li {
     color: #06f8c8c8;
     font-size: 24px;
     font-family: inter, dark;
+    animation: text 3s infinite;
 }
+
+@keyframes color-change {
+  0%   { background-color: rgb(107, 107, 214); }
+  25%  { background-color: rgb(110, 64, 110)}
+  35%  { background-color: rgb(79, 130, 90);}
+  50%  { background-color: rgb(201, 89, 89); }
+  75%  { background-color: rgb(110, 64, 110)}
+  85%  { background-color: rgb(77, 136, 90);}
+  100% { background-color: rgb(107, 107, 214); }
+}
+@keyframes h1bkground{
+ 0% {font-size: large;} 
+ 50% {font-size: small;} 
+100% {font-size: large;}  
+}
+
