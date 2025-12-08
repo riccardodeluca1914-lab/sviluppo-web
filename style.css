@@ -3,7 +3,7 @@ body {
     font-size: 11px; /* La dimensione del font principale nei tag <p></p> */
     background-color: #569a1b; /* Il colore dello sfondo della pagina web */
     color: #f8bc06c4; /* Il colore del testo */ 
-    animation: color-change 5s infinite;
+    animation: color-change 10s infinite;
 
     
 }
@@ -35,4 +35,5 @@ li {
  50% {font-size: small;} 
 100% {font-size: large;}  
 }
+
 
